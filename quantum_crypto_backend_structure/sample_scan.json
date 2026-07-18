@@ -1,0 +1,52 @@
+{
+   "scan_metadata": {
+      "scan_id": "06e2b84e-f8d4-49a9-9cb5-59c7ccd2a71b",
+      "target": "sha1-intermediate.badssl.com",
+      "ip_address": "104.154.89.105",
+      "scan_timestamp": "2026-03-26T17:52:00Z",
+      "scanner_version": "1.0",
+      "scan_mode": "non_intrusive"
+   },
+   "asset": {
+      "asset_id": "149a6a4b-f14d-4904-97dd-565f1b9f31bd",
+      "asset_type": "public_web",
+      "hostname": "sha1-intermediate.badssl.com",
+      "port": 443,
+      "service": "https"
+   },
+   "protocol": {
+      "name": "TLS",
+      "version": "TLSv1.2",
+      "oid": null,
+      "supported_cipher_suites": [],
+      "negotiated_cipher_suite": "ECDHE-RSA-AES128-GCM-SHA256"
+   },
+   "certificate": {
+      "name": "sha1-intermediate.badssl.com",
+      "certificate_format": "X.509",
+      "certificate_extension": ".crt",
+      "subject_name": "OU=Domain Control Validated, OU=COMODO SSL Wildcard, CN=*.badssl.com",
+      "issuer_name": "C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO SSL CA",
+      "not_valid_before": "2017-04-13T00:00:00Z",
+      "not_valid_after": "2020-05-30T23:59:59Z",
+      "signature_algorithm": {
+         "name": "sha256WithRSAEncryption",
+         "oid": null
+      },
+      "public_key": {
+         "algorithm": "rsaEncryption",
+         "key_size": 2048,
+         "oid": null,
+         "classical_security_bits": 112
+      },
+      "key_state": "expired"
+   },
+   "discovered_apis": [],
+   "discovered_vpn_endpoints": [],
+   "discovered_services": [
+      {
+         "port": 443,
+         "asset_type": "web_service"
+      }
+   ]
+}
